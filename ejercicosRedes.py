@@ -1,6 +1,8 @@
 import networkx as nx
 
-g = nx.read_graphml("/home/x/GITS/VeranoMatematicas2020/data/les_miserables.graphml")
+mi_path = "mi/path"
+
+g = nx.read_graphml(mi_path)
 
 g
 
